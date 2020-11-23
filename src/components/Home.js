@@ -2,20 +2,17 @@ import React, {useState} from 'react';
 import '../styles/components/Header.scss'
 import {withRouter, Link, useRouteMatch, NavLink} from 'react-router-dom';
 import Button from '@material-ui/core/Button';
-
 import Header from './Header';
+import Footer from './Footer';
 import '../styles/components/Home.scss';
 import womanHandshake from '../assets/womanHandshake.jpeg';
 import manTelemarketing from '../assets/manTelemarketing.jpeg';
 import peopleOnPhone from '../assets/peopleOnPhone.jpeg';
 
-
 const AboutUs = () => {
-
-    return (
-        <div>
-            <Header/>
+    return ( 
             <div id="home">
+            <Header/>
                 <div class="hero">
                     <div class="hero-text">
                         <div class="hero-header">
@@ -29,7 +26,8 @@ const AboutUs = () => {
                                     padding: "5px 50px",
                                     fontSize: "18px",
                                     color: "#ffffff"}} 
-                                    variant="raised">
+                                    variant="raised"
+                                    href="mailto:contact@media-zoo.com">
                                     Contact Us
                             </Button>
                     </div>
@@ -76,8 +74,8 @@ const AboutUs = () => {
                         </div>
                     </div>
                 </div>
+                <Footer/>
             </div>
-        </div>
     );
 }
 

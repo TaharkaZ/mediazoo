@@ -1,0 +1,17 @@
+{
+    "services" : [
+        {
+            "ServiceType": "Social Media Marketing",
+            "Description" : "Whether its Facebook, Instagram, Twitter, LinkedIn, Pinterest, and Google we offer full-service social media management and marketing services developed for small to Mid-Sized Businesses. Everything from social media account creation. account monitoring to Facebook posts to increase reach and engagement, our dedicated social media specialists create promotions and interest to engage your followers."
+        },
+        {
+            "ServiceType" : "Social targeting",
+            "Description" : "Get your brands in front of people looking for products and services like yours. Our programs help you identify the social profile of your traffic, highlight your events sales and products and enhance your audience and reputation using social media"
+        },
+        {
+            "ServiceType" : "Email Marketing",
+            "Description" : "Get in contact, provide customer service and renewal follow ups and surveys."
+        }
+
+    ]
+}

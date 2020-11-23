@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+#header{
+
+    .header-container{
+        background-color: #182430;
+        font-family: roboto , Arial, Helvetica, sans-serif;
+        display: flex;
+        align-items: center;
+        height: 70px;
+        // min-height: 48px;
+
+        .header-logo{
+            width:30%;
+            margin-left:2%;
+            font-weight: bolder;
+            font-size: 25px;
+            color: #ffffff;
+        }
+
+        .header-links{
+            
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            align-content: center;
+            width:100%;
+
+            .header-links-item{
+                color: #ffffff;
+                font-weight: lighter;
+                margin-left: 2%;
+                margin-right:2%;
+            }
+        }
+    }
+   
+}
+
+.active{
+    font-weight:  bolder !important;
+    color: #ffffff !important;
+}

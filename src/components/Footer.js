@@ -7,7 +7,7 @@ const Contact = () => {
         return(
         <div class="footer">
             <div class="footer-top">MEDIA-ZOO | contact@media-zoo.com | 844-854-0458</div>
-            <div class="footer-bottom">&#169; Media-Zoo all rights reserved</div>
+            <div class="footer-bottom">&#169; 2020 Media-Zoo all rights reserved.</div>
         </div>
         );
 }

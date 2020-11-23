@@ -1,3 +1,5 @@
+@import './utilities/Mixins.scss';
+
 #home{
 
         .hero{
@@ -12,6 +14,9 @@
                 justify-content: center;
                 height: 100%;
                 width:30%;
+                @include respond-below(sm){
+                    width:80%;
+                }
                 color: white;
                 margin-left: 10vw;
                 // background-color: red;
@@ -39,6 +44,9 @@
             .home-row{
                 display: grid;
                 grid-template-columns: 1fr 1fr;
+                @include respond-below(sm){
+                    grid-template-columns: 1fr; 
+                }
                 gap: 0px 0px;
                 background-color: #DBDBDB;
                 width: 100%;
@@ -59,6 +67,10 @@
                         position: absolute;
                         height:500px;
                         width:350px;
+                        @include respond-below(sm){
+                            height: 400px;
+                            width: 250px;
+                        }
                     }
 
                     .home-backdrop-left{
@@ -67,6 +79,10 @@
                         position: relative;
                         width:350px;
                         height: 500px;
+                        @include respond-below(sm){
+                            width: 200px;
+                            height: 350px;
+                        }
                         right: 35px;
                         bottom: 40px;
                     }
@@ -76,6 +92,10 @@
                         position: relative;
                         width:350px;
                         height: 500px;
+                        @include respond-below(sm){
+                            width: 200px;
+                            height: 350px;
+                        }
                         left: 35px;
                         bottom: 40px;
                     }
@@ -92,10 +112,17 @@
                     .home-header{
                         font-size: 3rem;
                         padding-bottom: 20px;
+                        
+                        @include respond-below(sm){
+                            width:80%;
+                        }
                     }
 
                     .home-description{
                         width:70%;
+                        @include respond-below(sm){
+                            margin-bottom: 60px;
+                        }
                     }
 
                 }

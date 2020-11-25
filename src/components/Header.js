@@ -7,7 +7,7 @@ const Header = () => {
         return(
         <div id = "header">
             <div className = "header-container">
-                <div className = "header-logo">Media Zoo</div>
+                <div className = "header-logo">Media-Zoo</div>
                 <div className = "header-links">
                     {/* <NavLink to = "/" exact className = "header-links-item" activeClassName="active">Home</NavLink>
                     <NavLink to = "/Services"className = "header-links-item" activeClassName="active">Services</NavLink>  

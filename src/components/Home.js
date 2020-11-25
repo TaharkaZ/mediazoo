@@ -6,8 +6,8 @@ import Header from './Header';
 import Footer from './Footer';
 import '../styles/components/Home.scss';
 import womanHandshake from '../assets/womanHandshake.jpeg';
-import manTelemarketing from '../assets/manTelemarketing.jpeg';
-import peopleOnPhone from '../assets/peopleOnPhone.jpeg';
+import manTelemarketing from '../assets/manOnPhone.jpeg';
+import collaboration from '../assets/collaboration2.jpeg';
 
 const AboutUs = () => {
     return ( 
@@ -19,7 +19,7 @@ const AboutUs = () => {
                             Elevate Your Business
                         </div>
                         <div class="hero-subheading">
-                            Media-Zoo is your dedicated lead generation, demand creation and customer service support team
+                        Media-Zoo is your dedicated lead generation and customer service support team
                         </div>
                             <Button style={{
                                     backgroundColor: "#182430",
@@ -64,7 +64,7 @@ const AboutUs = () => {
                     <div class="home-row">
                         <div class="home-img-container">
                             <img class="home-img"
-                                src={peopleOnPhone}/>
+                                src={collaboration}/>
                             <div class="home-backdrop-left"></div>
                         </div>
                         <div class="home-text">

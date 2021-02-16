@@ -1,0 +1,68 @@
+@import '../../styles/components/utilities/Mixins.scss';
+#sponsor-grid{
+    margin: 0 30px;
+    position: relative;
+    height: 20vw;
+    width:20vw;
+    font-size: 0.9vw;
+    margin-bottom: 40px;
+    // padding-left: 10px;
+    // padding-right: 10px;
+
+    @include respond-below(md){
+        height: 48vw;
+        width:48vw;
+        font-size: .75rem;
+        
+    }
+
+    .sponsor-grid-card{
+        // position: absolute;
+        display: flex;
+      
+        width:100%;
+        height:100%;
+        // width:80%;
+        background-color: white;
+        // padding: 10px 10px;
+        outline: #073454;
+        transform-style: preserve-3d;
+        transition: all 0.7s ease;
+        cursor: pointer;
+        border-radius: 10px;
+        &.flipped{
+            transform: rotateY(180deg);
+        }
+    }
+
+    .sponsor-grid-front{
+        position: absolute;
+        width:100%;
+        height:100%;
+        backface-visibility: hidden;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        font-weight: 600;
+        font-size: 1.75rem;
+        color:#073454;
+        transition: 0.3s;
+    }
+    
+    .sponsor-grid-front:hover{
+        font-size: 1.8rem;
+    }
+
+    .sponsor-grid-back{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        position: absolute;
+        width:100%;
+        height:100%;
+        backface-visibility: hidden;
+        align-items: center;
+        margin:auto;
+        transform: rotateY(180deg);
+    }
+}

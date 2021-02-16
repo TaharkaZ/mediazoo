@@ -9,10 +9,10 @@ const Header = () => {
             <div className = "header-container">
                 <div className = "header-logo">Media-Zoo</div>
                 <div className = "header-links">
-                    {/* <NavLink to = "/" exact className = "header-links-item" activeClassName="active">Home</NavLink>
+                    <NavLink to = "/" exact className = "header-links-item" activeClassName="active">Home</NavLink>
                     <NavLink to = "/Services"className = "header-links-item" activeClassName="active">Services</NavLink>  
-                    <NavLink to = "/Contact"className = "header-links-item" activeClassName="active">Contact</NavLink>
-                    <NavLink to = "/Blog"className = "header-links-item" activeClassName="active">Blog</NavLink> */}
+                    <NavLink to = "/workwithus"className = "header-links-item" activeClassName="active">Work With Us</NavLink>
+                    <NavLink to = "/careers"className = "header-links-item" activeClassName="active">Careers</NavLink>
                 </div>
             </div>
         </div>

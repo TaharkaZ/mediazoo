@@ -3,6 +3,8 @@ import Home from './components/Home';
 import Contact from './components/Contact';
 import Blog from './components/Blog';
 import ServicesOffered from './components/ServicesOffered';
+import Careers from './components/Careers.js';
+import WorkWithUs from './components/WorkWithUs';
 
 import {
   BrowserRouter as Router,
@@ -21,6 +23,8 @@ function App() {
              <Route path="/Contact" component = {Contact}/>
              <Route path="/Services" component = {ServicesOffered}/>
              <Route path="/Blog"  component = {Blog}></Route>
+             <Route path="/WorkWithUs"  component = {WorkWithUs}></Route>
+             <Route path="/Careers"  component = {Careers}></Route>
            </Switch>
       </Router> 
     </div>

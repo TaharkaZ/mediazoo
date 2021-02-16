@@ -11,7 +11,34 @@
         {
             "ServiceType" : "Email Marketing",
             "Description" : "Get in contact, provide customer service and renewal follow ups and surveys."
+        },
+        {
+            "ServiceType": "SEO",
+            "Description": "We specialize in dramatically increasing small businesses local visibility and more qualified and targeted traffic. Tailored personal keyword research & ongoing optimization services = more web traffic, leads, and sales from local consumers!"
+        },
+        {
+            "ServiceType": "Web Design",
+            "Description": "Duh! Obviously we are pretty good at this. Call us "
+        },
+        {
+            "ServiceType": "Retargeting",
+            "Description": "Ensure that your ads are served to only to people who have previously visited your site or page. Our Facebook Retargeting campaigns keep your business brand in front of leads as they research which business company to hire."
+        },
+        {
+            "ServiceType": "Google Ad Placement",
+            "Description": "Get found! When searching for local services people always search by location. With our local Google Ad Placement services your business’s name will appear when a local search is done for your business category. "
+        },
+        {
+            "ServiceType": "On-Demand Call and Chat Support",
+            "Description": "Media-Zoo provides a full spectrum of support call center services for all types of businesses including help desk, live chat, social media, mobile and other types of customer service platforms. If you need assistance, contact us"
+        },
+        {
+            "ServiceType": "Lead and Demand Generation",
+            "Description": "Let us create a killer demand generation strategy for your business. Our lead generation services are perfect for startups, small and medium-sized businesses. If you need help generating new leads, increasing sales, gaining new customers or replacing lost ones call us. We can help your business bridge the gap between marketing and sales success.  "
+        },
+        {
+            "ServiceType": "Inbound and outbound sales support",
+            "Description": "Our agents are recruited and trained for sales support services such as inbound order taking, outbound sales, lead generation and qualification. Our scalable full service solutions can provide any combination of call center services — from handling your incoming calls and sales orders to calling new leads"
         }
-
     ]
 }

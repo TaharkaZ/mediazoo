@@ -25,13 +25,33 @@
             justify-content: flex-end;
             align-content: center;
             width:100%;
+           
 
             .header-links-item{
                 color: #ffffff;
                 font-weight: lighter;
                 margin-left: 2%;
                 margin-right:2%;
+                text-decoration: none;
+                position: relative;
             }
+
+
+            .header-links-item:before {
+            position: absolute;
+            width: 100%;
+            height: 2px;
+            bottom: 0;
+            left: 0;
+            background-color: #FFF;
+            visibility: hidden;
+            transform: scaleX(0);
+            transition: all 0.3s ease-in-out;
+            }
+            .header-links-item:hover:before {
+                visibility: visible;
+                transform: scaleX(1);
+              }
         }
     }
    

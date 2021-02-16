@@ -1,10 +1,12 @@
 
 .workwithus-content{
     max-width: 1440px;
-    min-height:300px;
+    width:50%;
+    min-height:calc(100vh - 80px);
     display: flex;
     flex-direction: column;
     align-content: center;
+    justify-content: center;
     margin: auto;
 }
 
@@ -36,4 +38,36 @@
     max-width: 1440px;
     font-size: 1.5rem;
     margin: 30px 0px;
+}
+
+.bold{
+    font-weight: 600;
+}
+
+.workwithus-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 1440px;
+    margin: auto;
+}
+
+.workwithus-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:30vw;
+    height:30vw;
+}
+
+.workwithus-left{
+    display: flex;
+    height:30vw;
+    width:35vw;
+    justify-content: center;
+    align-items: center;
+    background-color:#073454;
+    box-shadow: 0 0 1pt 1pt #073454;
+    border-radius: 50%;
+    margin:5px 5%;
 }
